@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300&family=Roboto:wght@500&display=swap');
+.Login{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containtext{
+    width: 25rem;
+    margin-right: 100px;
+    color: gray;
+    font-size: 0.9rem;
+    text-align:justify;
+    font-family: 'Poppins', sans-serif;
+}
+.logtext{
+    color: #beb6b6f5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-top: 3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    margin-right: 14rem;
+}
+.text1{
+    font-size: 2rem;
+    color: black;
+    font-weight: 600;
+    margin-bottom :10px ;
+}
+.container{
+    height: 30rem;
+    width: 22rem;
+    background-color: rgba(0, 0, 0, 0.897);
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    margin-top: 40px ;
+    align-items: center;
+}
+.cont1{
+    margin-top: 2rem;
+}
+.textinput1{
+  width: 18rem;
+  height: 2.2rem;
+  border-radius: 2px;
+  padding: 0 10px;
+  margin-bottom: 1rem;
+  border-style:none;
+  background-color: rgb(41, 39, 39);
+}
+.loginbtn{
+    margin-top: 1em;
+    background-color:#f10000f1;
+    color: #fff;
+    border-style:none;
+    font-size: 1rem;
+    width: 7rem;
+    height: 2rem; 
+    border-radius: 2px;
+    cursor: pointer;
+}
+.forgotpass{
+    margin-top: 0px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.forgotpass:hover{
+    color: goldenrod;
+}
+.signup{
+    color: white;
+    font-size: 13px;
+    margin-top: 40px;
+}
+.signup a{
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 13px;
+}
+.Googlebtn{
+    margin-top: 1em;
+    background-color:#f10000a2;
+    color: #fff;
+    border-style:none;
+    font-size: 1rem;
+    width: 10.5rem;
+    margin-top: 2rem;
+    height: 2rem; 
+    border-radius: 2px;   
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.gooleicon{
+    position: absolute;
+}
+.backbtn{
+    margin-top: 1em;
+    background-color:rgba(0, 0, 0, 0.644);
+    color: #fff;
+    border-style:none;
+    font-size: 1rem;
+    width: 10rem;
+    height: 3rem; 
+    border-radius: 2px;
+    cursor: pointer;
+}
+.backbtn:hover{
+    background-color: #000;
+}
+
+@media screen and (max-width:1000px) {
+    .Login{
+        flex-direction: column;
+    }
+    .containtext{
+        width: 20rem;
+        margin-right: 0px;
+        margin-bottom: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px ;
+    }
+    .text1{
+        margin-top: 50px;
+        text-align: left;
+    }
+}
