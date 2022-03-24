@@ -1,5 +1,7 @@
-import React from 'react'
+import React from 'react';
+import "../Css/login.css";
 import logo from "../Images/google.png";
+import { Link } from 'react-router-dom';
 
 
 const Login = () => {
@@ -15,7 +17,7 @@ const Login = () => {
             excepturi, totam facere tempore ratione libero perspiciatis doloremque
             ea quod iusto quos at error quidem assumenda sunt.
          </div>
-         <button className="backbtn">Back</button>
+         <Link to="/Intro"><button className="backbtn">Back</button></Link>
         </div>
 
 
@@ -24,11 +26,12 @@ const Login = () => {
           <div className="logtext">Login</div>
           <div className="cont1">
              </div><input type="email" className="textinput1" placeholder="Email ID" />
-             <input type="password" className="textinput1" placeholder="Password" />         
+             <input type="password" className="textinput1" placeholder="Password" />  
+             <p className="beta">Please enter your credentials</p>       
         
                 <button className="loginbtn">Login</button>
-                <p className="signup">Don't have an account? <a href="#">Signup</a></p>
-                <a href="#" className="forgotpass">Forgot password?</a>
+                <p className="signup">Don't have an account? <Link to="/Signup">Signup</Link></p>
+                <Link to="/Forgotpass" className="forgotpass">Forgot password?</Link>
                 <button className="Googlebtn"><img src={logo} width="25px" className="googleicon"/> 
                 <p>Google Signup</p></button>
         </div>
