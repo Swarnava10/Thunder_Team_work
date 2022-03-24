@@ -51,6 +51,14 @@
   border-style:none;
   background-color: rgb(41, 39, 39);
 }
+.beta{
+    color: #beb6b6f5;
+    font-size: 11px;
+    text-align: left;
+    margin-right: 10rem;
+    margin-top: 0 ;
+    margin-bottom: 5px;
+}
 .loginbtn{
     margin-top: 1em;
     background-color:#f10000f1;
