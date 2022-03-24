@@ -1,1 +1,1 @@
-# Thunder Summerizer
+# Thunder Summarizer
